@@ -1,0 +1,229 @@
+{
+  "county": "Ramsey",
+  "source": "https://enterprise.gisdata.mn.gov/aghost/rest/services/us_mn_state_mngeo/plan_parcels_open/FeatureServer/1/query?f=json&where=UPPER%28co_name%29+%3D+%27RAMSEY%27&outFields=objectid%2Ccounty_pin%2Cco_name%2Cyear_built%2Cemv_total%2Cuseclass1%2Cacres_poly&returnGeometry=false&orderByFields=objectid&resultRecordCount=20",
+  "status": 200,
+  "features": [
+    {
+      "attributes": {
+        "objectid": 3,
+        "county_pin": "092823130133",
+        "co_name": "Ramsey",
+        "year_built": 1915,
+        "emv_total": 412400,
+        "useclass1": "1a/1b/4bb Residential Single Unit",
+        "acres_poly": 0.12
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 4,
+        "county_pin": "332922140138",
+        "co_name": "Ramsey",
+        "year_built": 1979,
+        "emv_total": 270500,
+        "useclass1": "1a/1b/4bb Residential Single Unit",
+        "acres_poly": 0.25
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 5,
+        "county_pin": "332923440125",
+        "co_name": "Ramsey",
+        "year_built": 1900,
+        "emv_total": 286700,
+        "useclass1": "1a/1b/4bb Residential Single Unit",
+        "acres_poly": 0.11
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 8,
+        "county_pin": "352923330019",
+        "co_name": "Ramsey",
+        "year_built": 1909,
+        "emv_total": 229300,
+        "useclass1": "5e Tax Forfeiture Not Reported",
+        "acres_poly": 0.21
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 24,
+        "county_pin": "062822120182",
+        "co_name": "Ramsey",
+        "year_built": 1896,
+        "emv_total": 177000,
+        "useclass1": "1a/1b/4bb Residential Single Unit",
+        "acres_poly": 0.63
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 25,
+        "county_pin": "063023340013",
+        "co_name": "Ramsey",
+        "year_built": 1956,
+        "emv_total": 312700,
+        "useclass1": "1a/1b/4bb Residential Single Unit",
+        "acres_poly": 0.43
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 48,
+        "county_pin": "223022420056",
+        "co_name": "Ramsey",
+        "year_built": 2024,
+        "emv_total": 2200,
+        "useclass1": "4bb Non-Comm Condo Storage",
+        "acres_poly": 7.95
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 57,
+        "county_pin": "233022130004",
+        "co_name": "Ramsey",
+        "year_built": 1939,
+        "emv_total": 1493600,
+        "useclass1": "1a/1b/4bb Residential Single Unit",
+        "acres_poly": 0.3
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 66,
+        "county_pin": "102923120010",
+        "co_name": "Ramsey",
+        "year_built": 1958,
+        "emv_total": 340300,
+        "useclass1": "1a/1b/4bb Residential Single Unit",
+        "acres_poly": 0.36
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 104,
+        "county_pin": "203023410032",
+        "co_name": "Ramsey",
+        "year_built": 0,
+        "emv_total": 3800,
+        "useclass1": "1a/1b/4bb Residential Single Unit",
+        "acres_poly": 0.06
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 142,
+        "county_pin": "262923130091",
+        "co_name": "Ramsey",
+        "year_built": 1953,
+        "emv_total": 223600,
+        "useclass1": "1a/1b/4bb Residential Single Unit",
+        "acres_poly": 0.11
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 151,
+        "county_pin": "122922440037",
+        "co_name": "Ramsey",
+        "year_built": 1949,
+        "emv_total": 303300,
+        "useclass1": "1a/1b/4bb Residential Single Unit",
+        "acres_poly": 0.18
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 152,
+        "county_pin": "353022220058",
+        "co_name": "Ramsey",
+        "year_built": 1985,
+        "emv_total": 388700,
+        "useclass1": "1a/1b/4bb Residential Single Unit",
+        "acres_poly": 0.54
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 160,
+        "county_pin": "202923430019",
+        "co_name": "Ramsey",
+        "year_built": 1939,
+        "emv_total": 314100,
+        "useclass1": "1a/1b/4bb Residential Single Unit",
+        "acres_poly": 0.15
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 168,
+        "county_pin": "052922210236",
+        "co_name": "Ramsey",
+        "year_built": 2024,
+        "emv_total": 372800,
+        "useclass1": "1a/1b/4bb Residential Single Unit",
+        "acres_poly": 0.03
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 169,
+        "county_pin": "282923410088",
+        "co_name": "Ramsey",
+        "year_built": 1900,
+        "emv_total": 635600,
+        "useclass1": "5e Charitable Institution-Residential",
+        "acres_poly": 0.42
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 187,
+        "county_pin": "1259M04225",
+        "co_name": "Ramsey",
+        "year_built": 1981,
+        "emv_total": 16300,
+        "useclass1": "1a/1b/4bb Residential Single Unit",
+        "acres_poly": 0.03
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 200,
+        "county_pin": "112923320137",
+        "co_name": "Ramsey",
+        "year_built": 1952,
+        "emv_total": 300100,
+        "useclass1": "1a/1b/4bb Residential Single Unit",
+        "acres_poly": 0.26
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 223,
+        "county_pin": "082822340204",
+        "co_name": "Ramsey",
+        "year_built": 2002,
+        "emv_total": 420300,
+        "useclass1": "1a/1b/4bb Residential Single Unit",
+        "acres_poly": 0.14
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 234,
+        "county_pin": "032823340038",
+        "co_name": "Ramsey",
+        "year_built": 1921,
+        "emv_total": 416900,
+        "useclass1": "1a/1b/4bb Residential Single Unit",
+        "acres_poly": 0.11
+      }
+    }
+  ],
+  "error": null,
+  "exceededTransferLimit": true
+}
