@@ -1,0 +1,8 @@
+{
+  "variation": 2,
+  "excluded_parcel": "092823130133",
+  "exclusion_reason": "Operator requests exclusion from further work; no prior processing history is asserted",
+  "reserved_additions": null,
+  "rollback": "Record the created output's ID and state; restore only that output using the observed baseline, then reapply. Preserve all original source records.",
+  "scope": "All future operations remain within this variation's repository, deployment projects and database schema."
+}

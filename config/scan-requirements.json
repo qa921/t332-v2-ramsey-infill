@@ -26,5 +26,20 @@
     "year_built describes building age, not roof age",
     "parcel source values may be null",
     "initial source sample is bounded to 20 records, not a county inventory"
-  ]
+  ],
+  "anchor": {
+    "attributes": {
+      "objectid": 3,
+      "county_pin": "092823130133",
+      "co_name": "Ramsey"
+    },
+    "centroid": {
+      "x": -93.1760876955124,
+      "y": 44.92819634947327
+    }
+  },
+  "anchor_source": "https://enterprise.gisdata.mn.gov/aghost/rest/services/us_mn_state_mngeo/plan_parcels_open/FeatureServer/1/query?f=json&where=UPPER%28co_name%29+%3D+%27RAMSEY%27&outFields=objectid%2Ccounty_pin%2Cco_name&returnGeometry=false&returnCentroid=true&outSR=4326&orderByFields=objectid&resultRecordCount=1",
+  "initial_radius_km": 0.75,
+  "backend_url": "https://t332-v2-ramsey-infill.onrender.com",
+  "vercel_project_id": "prj_RqE6qYyTRd7OjXfhFtymQ41qPY7T"
 }
