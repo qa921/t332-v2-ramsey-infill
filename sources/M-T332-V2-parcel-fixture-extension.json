@@ -1,0 +1,27 @@
+{
+  "task_label": "M-T332-V2",
+  "county": "Ramsey",
+  "source_kind": "bounded fixture observations; not normalized output",
+  "source_url": "https://enterprise.gisdata.mn.gov/arcgis/rest/services/us_mn_state_mngeo/plan_parcels_open/FeatureServer/1",
+  "observed_at": "2026-09-15T01:52:40Z",
+  "features": [
+    {"attributes":{"objectid":301,"county_pin":"092823130199","co_name":"Ramsey","year_built":1888,"emv_total":518000,"useclass1":"1a/1b/4bb Residential Single Unit","acres_poly":0.16},"source_state":"fresh","page":2},
+    {"attributes":{"objectid":302,"county_pin":"092823130200","co_name":"Ramsey","year_built":null,"emv_total":461000,"useclass1":"1a/1b/4bb Residential Single Unit","acres_poly":0.19},"source_state":"unknown_year","page":2},
+    {"attributes":{"objectid":303,"county_pin":"092823130201","co_name":"Ramsey","year_built":1912,"emv_total":null,"useclass1":"1a/1b/4bb Residential Single Unit","acres_poly":0.14},"source_state":"missing_value","page":2},
+    {"attributes":{"objectid":304,"county_pin":"092823130202","co_name":"Ramsey","year_built":1931,"emv_total":355000,"useclass1":null,"acres_poly":0.11},"source_state":"unknown_use_class","page":2},
+    {"attributes":{"objectid":305,"county_pin":"092823130203","co_name":"Ramsey","year_built":1901,"emv_total":699000,"useclass1":"5e Charitable Institution-Residential","acres_poly":0.48},"source_state":"non_residential_exception","page":2},
+    {"attributes":{"objectid":306,"county_pin":"092823130204","co_name":"Ramsey","year_built":1974,"emv_total":284000,"useclass1":"1a/1b/4bb Residential Single Unit","acres_poly":null},"source_state":"missing_area","page":3},
+    {"attributes":{"objectid":307,"county_pin":"092823130205","co_name":"Ramsey","year_built":1899,"emv_total":742000,"useclass1":"1a/1b/4bb Residential Single Unit","acres_poly":0.27},"source_state":"stale_destination_candidate","page":3},
+    {"attributes":{"objectid":308,"county_pin":"092823130206","co_name":"Ramsey","year_built":0,"emv_total":193000,"useclass1":"1a/1b/4bb Residential Single Unit","acres_poly":0.08},"source_state":"invalid_year_sentinel","page":3}
+  ],
+  "provider_events": [
+    {"event_id":"M-T332-V2-provider-page-2","occurred_at":"2026-09-14T15:44:00Z","status":200,"page":2,"note":"valid continuation page"},
+    {"event_id":"M-T332-V2-provider-page-3","occurred_at":"2026-09-14T15:45:00Z","status":503,"page":3,"note":"temporary provider unavailability; do not synthesize missing records"},
+    {"event_id":"M-T332-V2-provider-retry-3","occurred_at":"2026-09-14T15:47:00Z","status":200,"page":3,"note":"retry returned bounded records"}
+  ],
+  "destination_observations": [
+    {"parcel_id":"092823130199","observed_saved_at":"2026-08-01T09:00:00Z","status":"missing_cross_link"},
+    {"parcel_id":"092823130205","observed_saved_at":"2026-07-15T09:00:00Z","status":"stale_fields"},
+    {"parcel_id":"092823130203","observed_saved_at":null,"status":"not_saved"}
+  ]
+}
